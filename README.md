@@ -18,5 +18,5 @@ mfpdesign has not been optimized up to now, I modified the script so that it tak
 
 
 - Evaluate and optimize to get the final primer outputs:     
-mfpqpcr -i primers.fa -t targets.fa
+`mfpqpcr -i prepped.fungene_9.6_amoA_AOB_1205_unaligned_nucleotide_seqs.fa.primers -t abundant.fungene_9.6_amoA_AOB_1205_unaligned_nucleotide_seqs.fa`
 
