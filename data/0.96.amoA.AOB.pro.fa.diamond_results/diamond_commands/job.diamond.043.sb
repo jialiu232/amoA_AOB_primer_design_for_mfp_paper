@@ -1,0 +1,38 @@
+#!/bin/bash
+
+##### Resources Requested ##########
+#SBATCH --time=48:00:00            
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem-per-cpu=16G
+
+########## Command Lines to Run ##########
+
+update_job_status 043 "Started $(date +'%H:%M %m\/%d\/%y')"
+
+cat << EOF | parallel
+
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679267.3.fasta --out ../mgm4679267.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679268.3.fasta --out ../mgm4679268.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679269.3.fasta --out ../mgm4679269.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679270.3.fasta --out ../mgm4679270.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679271.3.fasta --out ../mgm4679271.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679272.3.fasta --out ../mgm4679272.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679273.3.fasta --out ../mgm4679273.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679274.3.fasta --out ../mgm4679274.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679275.3.fasta --out ../mgm4679275.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679276.3.fasta --out ../mgm4679276.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679277.3.fasta --out ../mgm4679277.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679278.3.fasta --out ../mgm4679278.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679279.3.fasta --out ../mgm4679279.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679280.3.fasta --out ../mgm4679280.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679281.3.fasta --out ../mgm4679281.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679282.3.fasta --out ../mgm4679282.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679283.3.fasta --out ../mgm4679283.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679284.3.fasta --out ../mgm4679284.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679285.3.fasta --out ../mgm4679285.3.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/mgm4679286.3.fasta --out ../mgm4679286.3.fasta.m8 --id 97
+EOF
+
+update_job_status 043 "Finished: $(date +'%H:%M %m\/%d\/%y')"

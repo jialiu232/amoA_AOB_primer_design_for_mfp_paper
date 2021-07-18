@@ -1,0 +1,2192 @@
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.000102s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.533092s]
+Opening the output file...  [0.000761s]
+Loading query sequences...  [0.07401s]
+Masking queries...  [0.146245s]
+Building query seed set...  [0.038774s]
+Algorithm: Double-indexed
+Building query histograms...  [0.005689s]
+Allocating buffers...  [0.00014s]
+Loading reference sequences...  [9.9e-05s]
+Masking reference...  [0.001914s]
+Building reference histograms...  [0.001328s]
+Allocating buffers...  [0.000113s]
+Initializing temporary storage...  [0.008106s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.004796s]
+Building query seed array...  [0.005438s]
+Computing hash join...  [0.002559s]
+Building seed filter...  [0.003032s]
+Searching alignments...  [0.001114s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.002918s]
+Building query seed array...  [0.005709s]
+Computing hash join...  [0.001964s]
+Building seed filter...  [0.002983s]
+Searching alignments...  [0.001143s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.002675s]
+Building query seed array...  [0.005806s]
+Computing hash join...  [0.001878s]
+Building seed filter...  [0.002906s]
+Searching alignments...  [0.001182s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.00287s]
+Building query seed array...  [0.004908s]
+Computing hash join...  [0.002243s]
+Building seed filter...  [0.003071s]
+Searching alignments...  [0.001251s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.002901s]
+Building query seed array...  [0.00449s]
+Computing hash join...  [0.002243s]
+Building seed filter...  [0.00307s]
+Searching alignments...  [0.001161s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.002963s]
+Building query seed array...  [0.00497s]
+Computing hash join...  [0.001838s]
+Building seed filter...  [0.002974s]
+Searching alignments...  [0.001163s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.002916s]
+Building query seed array...  [0.004998s]
+Computing hash join...  [0.002372s]
+Building seed filter...  [0.00297s]
+Searching alignments...  [0.001074s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.002889s]
+Building query seed array...  [0.004687s]
+Computing hash join...  [0.00164s]
+Building seed filter...  [0.003005s]
+Searching alignments...  [0.001067s]
+Deallocating buffers...  [7e-06s]
+Computing alignments...  [0.072961s]
+Deallocating reference...  [9e-06s]
+Loading reference sequences...  [3.9e-05s]
+Deallocating buffers...  [0.000428s]
+Deallocating queries...  [0.0004s]
+Loading query sequences...  [2.8e-05s]
+Closing the input file...  [3.1e-05s]
+Closing the output file...  [1.9e-05s]
+Closing the database file...  [1.8e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 1.00194s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [9.7e-05s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [1.27284s]
+Opening the output file...  [0.001088s]
+Loading query sequences...  [1.97884s]
+Masking queries...  [0.704399s]
+Building query seed set...  [0.038977s]
+Algorithm: Double-indexed
+Building query histograms...  [0.023659s]
+Allocating buffers...  [0.000586s]
+Loading reference sequences...  [9.5e-05s]
+Masking reference...  [0.00191s]
+Building reference histograms...  [0.00125s]
+Allocating buffers...  [0.000111s]
+Initializing temporary storage...  [0.007565s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.003005s]
+Building query seed array...  [0.017217s]
+Computing hash join...  [0.015234s]
+Building seed filter...  [0.003055s]
+Searching alignments...  [0.001145s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.002979s]
+Building query seed array...  [0.019912s]
+Computing hash join...  [0.003144s]
+Building seed filter...  [0.00288s]
+Searching alignments...  [0.001067s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.002993s]
+Building query seed array...  [0.021322s]
+Computing hash join...  [0.003393s]
+Building seed filter...  [0.00289s]
+Searching alignments...  [0.001079s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.002926s]
+Building query seed array...  [0.016293s]
+Computing hash join...  [0.002559s]
+Building seed filter...  [0.002906s]
+Searching alignments...  [0.001091s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.002865s]
+Building query seed array...  [0.014344s]
+Computing hash join...  [0.002234s]
+Building seed filter...  [0.00296s]
+Searching alignments...  [0.001077s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.002955s]
+Building query seed array...  [0.017567s]
+Computing hash join...  [0.002332s]
+Building seed filter...  [0.002922s]
+Searching alignments...  [0.001089s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.002911s]
+Building query seed array...  [0.017543s]
+Computing hash join...  [0.002357s]
+Building seed filter...  [0.002955s]
+Searching alignments...  [0.001081s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.002912s]
+Building query seed array...  [0.014505s]
+Computing hash join...  [0.002521s]
+Building seed filter...  [0.002822s]
+Searching alignments...  [0.001064s]
+Deallocating buffers...  [8e-06s]
+Computing alignments...  [0.292551s]
+Deallocating reference...  [8e-06s]
+Loading reference sequences...  [4.1e-05s]
+Deallocating buffers...  [0.000499s]
+Deallocating queries...  [0.000497s]
+Loading query sequences...  [2.6e-05s]
+Closing the input file...  [4.7e-05s]
+Closing the output file...  [1.9e-05s]
+Closing the database file...  [1.8e-05s]
+Deallocating taxonomy...  [6e-06s]
+Total time = 4.55492s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [9.8e-05s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.748626s]
+Opening the output file...  [0.000938s]
+Loading query sequences...  [7.93193s]
+Masking queries...  [1.78878s]
+Building query seed set...  [0.038946s]
+Algorithm: Double-indexed
+Building query histograms...  [0.075687s]
+Allocating buffers...  [0.000588s]
+Loading reference sequences...  [9.3e-05s]
+Masking reference...  [0.001372s]
+Building reference histograms...  [0.001233s]
+Allocating buffers...  [0.000107s]
+Initializing temporary storage...  [0.00822s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.002782s]
+Building query seed array...  [0.043417s]
+Computing hash join...  [0.048568s]
+Building seed filter...  [0.002371s]
+Searching alignments...  [0.001054s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.002226s]
+Building query seed array...  [0.05919s]
+Computing hash join...  [0.010806s]
+Building seed filter...  [0.002324s]
+Searching alignments...  [0.000985s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.002159s]
+Building query seed array...  [0.057343s]
+Computing hash join...  [0.009s]
+Building seed filter...  [0.002423s]
+Searching alignments...  [0.001067s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.00213s]
+Building query seed array...  [0.055821s]
+Computing hash join...  [0.008822s]
+Building seed filter...  [0.002272s]
+Searching alignments...  [0.001078s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.00217s]
+Building query seed array...  [0.037832s]
+Computing hash join...  [0.008642s]
+Building seed filter...  [0.002246s]
+Searching alignments...  [0.001088s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.002209s]
+Building query seed array...  [0.044846s]
+Computing hash join...  [0.005437s]
+Building seed filter...  [0.002481s]
+Searching alignments...  [0.001085s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.002245s]
+Building query seed array...  [0.052255s]
+Computing hash join...  [0.005324s]
+Building seed filter...  [0.002394s]
+Searching alignments...  [0.001044s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.0024s]
+Building query seed array...  [0.037691s]
+Computing hash join...  [0.005409s]
+Building seed filter...  [0.002461s]
+Searching alignments...  [0.001073s]
+Deallocating buffers...  [8e-06s]
+Computing alignments...  [1.34164s]
+Deallocating reference...  [9e-06s]
+Loading reference sequences...  [4.3e-05s]
+Deallocating buffers...  [0.000414s]
+Deallocating queries...  [0.001235s]
+Loading query sequences...  [3e-05s]
+Closing the input file...  [5e-05s]
+Closing the output file...  [2e-05s]
+Closing the database file...  [1.7e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 12.4788s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.000102s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.705502s]
+Opening the output file...  [0.000906s]
+Loading query sequences...  [52.0653s]
+Masking queries...  [9.16512s]
+Building query seed set...  [0.075321s]
+Algorithm: Double-indexed
+Building query histograms...  [0.766052s]
+Allocating buffers...  [0.000629s]
+Loading reference sequences...  [0.000117s]
+Masking reference...  [0.005656s]
+Building reference histograms...  [0.005951s]
+Allocating buffers...  [0.000112s]
+Initializing temporary storage...  [0.014368s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.007534s]
+Building query seed array...  [0.346546s]
+Computing hash join...  [0.062627s]
+Building seed filter...  [0.003641s]
+Searching alignments...  [0.001178s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.00357s]
+Building query seed array...  [0.382838s]
+Computing hash join...  [0.032992s]
+Building seed filter...  [0.00358s]
+Searching alignments...  [0.001127s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.003662s]
+Building query seed array...  [0.629768s]
+Computing hash join...  [0.041994s]
+Building seed filter...  [0.003399s]
+Searching alignments...  [0.001071s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.003343s]
+Building query seed array...  [0.440119s]
+Computing hash join...  [0.039597s]
+Building seed filter...  [0.003585s]
+Searching alignments...  [0.001156s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.00361s]
+Building query seed array...  [0.301981s]
+Computing hash join...  [0.071216s]
+Building seed filter...  [0.048496s]
+Searching alignments...  [0.021865s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.022101s]
+Building query seed array...  [0.435167s]
+Computing hash join...  [0.067749s]
+Building seed filter...  [0.032032s]
+Searching alignments...  [0.020955s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.023275s]
+Building query seed array...  [0.502461s]
+Computing hash join...  [0.064182s]
+Building seed filter...  [0.050667s]
+Searching alignments...  [0.001682s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.00381s]
+Building query seed array...  [0.315468s]
+Computing hash join...  [0.065759s]
+Building seed filter...  [0.042345s]
+Searching alignments...  [0.021128s]
+Deallocating buffers...  [8e-06s]
+Computing alignments...  [4.98758s]
+Deallocating reference...  [1e-05s]
+Loading reference sequences...  [5.1e-05s]
+Deallocating buffers...  [0.002826s]
+Deallocating queries...  [0.00886s]
+Loading query sequences...  [3.3e-05s]
+Closing the input file...  [4.5e-05s]
+Closing the output file...  [0.001021s]
+Closing the database file...  [2.4e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 71.9371s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.000113s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [1.20233s]
+Opening the output file...  [0.000916s]
+Loading query sequences...  [53.1305s]
+Masking queries...  [9.18573s]
+Building query seed set...  [0.073168s]
+Algorithm: Double-indexed
+Building query histograms...  [0.757766s]
+Allocating buffers...  [0.000688s]
+Loading reference sequences...  [0.000173s]
+Masking reference...  [0.0077s]
+Building reference histograms...  [0.011632s]
+Allocating buffers...  [0.000114s]
+Initializing temporary storage...  [0.016535s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.051152s]
+Building query seed array...  [0.462799s]
+Computing hash join...  [0.170443s]
+Building seed filter...  [0.002961s]
+Searching alignments...  [0.001093s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.002943s]
+Building query seed array...  [0.53125s]
+Computing hash join...  [0.044424s]
+Building seed filter...  [0.002888s]
+Searching alignments...  [0.001066s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.002924s]
+Building query seed array...  [0.499637s]
+Computing hash join...  [0.087289s]
+Building seed filter...  [0.002969s]
+Searching alignments...  [0.00111s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.003034s]
+Building query seed array...  [0.412315s]
+Computing hash join...  [0.065779s]
+Building seed filter...  [0.004855s]
+Searching alignments...  [0.001342s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.00335s]
+Building query seed array...  [0.315337s]
+Computing hash join...  [0.055198s]
+Building seed filter...  [0.019542s]
+Searching alignments...  [0.005103s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.010852s]
+Building query seed array...  [0.447243s]
+Computing hash join...  [0.045898s]
+Building seed filter...  [0.007616s]
+Searching alignments...  [0.002174s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.005718s]
+Building query seed array...  [0.545599s]
+Computing hash join...  [0.041514s]
+Building seed filter...  [0.009457s]
+Searching alignments...  [0.005009s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.005508s]
+Building query seed array...  [0.429857s]
+Computing hash join...  [0.045544s]
+Building seed filter...  [0.009331s]
+Searching alignments...  [0.004226s]
+Deallocating buffers...  [9e-06s]
+Computing alignments...  [5.44283s]
+Deallocating reference...  [1.2e-05s]
+Loading reference sequences...  [5.2e-05s]
+Deallocating buffers...  [0.002621s]
+Deallocating queries...  [0.006167s]
+Loading query sequences...  [4.2e-05s]
+Closing the input file...  [0.000842s]
+Closing the output file...  [0.000667s]
+Closing the database file...  [2.3e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 74.209s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.000137s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.701737s]
+Opening the output file...  [0.001274s]
+Loading query sequences...  [66.1809s]
+Masking queries...  [13.3868s]
+Building query seed set...  [0.067124s]
+Algorithm: Double-indexed
+Building query histograms...  [2.52337s]
+Allocating buffers...  [0.000676s]
+Loading reference sequences...  [0.000115s]
+Masking reference...  [0.025366s]
+Building reference histograms...  [0.038604s]
+Allocating buffers...  [0.000123s]
+Initializing temporary storage...  [0.014084s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.024041s]
+Building query seed array...  [1.75398s]
+Computing hash join...  [0.358828s]
+Building seed filter...  [0.042787s]
+Searching alignments...  [0.035259s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.020571s]
+Building query seed array...  [1.71099s]
+Computing hash join...  [0.188499s]
+Building seed filter...  [0.032657s]
+Searching alignments...  [0.023527s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.020559s]
+Building query seed array...  [2.24831s]
+Computing hash join...  [0.224992s]
+Building seed filter...  [0.042577s]
+Searching alignments...  [0.01846s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.022322s]
+Building query seed array...  [1.06885s]
+Computing hash join...  [0.095749s]
+Building seed filter...  [0.008402s]
+Searching alignments...  [0.001468s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.01692s]
+Building query seed array...  [1.18221s]
+Computing hash join...  [0.185545s]
+Building seed filter...  [0.073943s]
+Searching alignments...  [0.020849s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.031769s]
+Building query seed array...  [1.72558s]
+Computing hash join...  [0.161077s]
+Building seed filter...  [0.042988s]
+Searching alignments...  [0.042288s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.050071s]
+Building query seed array...  [2.04161s]
+Computing hash join...  [0.210194s]
+Building seed filter...  [0.0502s]
+Searching alignments...  [0.020989s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.017744s]
+Building query seed array...  [1.72297s]
+Computing hash join...  [0.203955s]
+Building seed filter...  [0.047112s]
+Searching alignments...  [0.022986s]
+Deallocating buffers...  [9e-06s]
+Computing alignments...  [2.98691s]
+Deallocating reference...  [9e-06s]
+Loading reference sequences...  [5.5e-05s]
+Deallocating buffers...  [0.004747s]
+Deallocating queries...  [0.01627s]
+Loading query sequences...  [5e-05s]
+Closing the input file...  [5.3e-05s]
+Closing the output file...  [0.009753s]
+Closing the database file...  [3e-05s]
+Deallocating taxonomy...  [8e-06s]
+Total time = 101.775s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.000181s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [1.47325s]
+Opening the output file...  [0.000709s]
+Loading query sequences...  [71.5696s]
+Masking queries...  [14.6679s]
+Building query seed set...  [0.26751s]
+Algorithm: Double-indexed
+Building query histograms...  [1.93575s]
+Allocating buffers...  [0.000809s]
+Loading reference sequences...  [0.000111s]
+Masking reference...  [0.019683s]
+Building reference histograms...  [0.015958s]
+Allocating buffers...  [0.000126s]
+Initializing temporary storage...  [0.011819s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.025914s]
+Building query seed array...  [0.806654s]
+Computing hash join...  [0.292635s]
+Building seed filter...  [0.065668s]
+Searching alignments...  [0.021103s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.02378s]
+Building query seed array...  [1.13251s]
+Computing hash join...  [0.206901s]
+Building seed filter...  [0.047523s]
+Searching alignments...  [0.053728s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.030395s]
+Building query seed array...  [1.38345s]
+Computing hash join...  [0.185509s]
+Building seed filter...  [0.060899s]
+Searching alignments...  [0.019005s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.027059s]
+Building query seed array...  [1.28242s]
+Computing hash join...  [0.146033s]
+Building seed filter...  [0.045578s]
+Searching alignments...  [0.017684s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.040847s]
+Building query seed array...  [1.48443s]
+Computing hash join...  [0.227765s]
+Building seed filter...  [0.082325s]
+Searching alignments...  [0.036532s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.029133s]
+Building query seed array...  [1.15319s]
+Computing hash join...  [0.096102s]
+Building seed filter...  [0.033701s]
+Searching alignments...  [0.003359s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.019296s]
+Building query seed array...  [1.47323s]
+Computing hash join...  [0.071223s]
+Building seed filter...  [0.014632s]
+Searching alignments...  [0.012923s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.012991s]
+Building query seed array...  [1.11561s]
+Computing hash join...  [0.188285s]
+Building seed filter...  [0.067262s]
+Searching alignments...  [0.018821s]
+Deallocating buffers...  [1e-05s]
+Computing alignments...  [4.24987s]
+Deallocating reference...  [1e-05s]
+Loading reference sequences...  [5.7e-05s]
+Deallocating buffers...  [0.003136s]
+Deallocating queries...  [0.015628s]
+Loading query sequences...  [4.7e-05s]
+Closing the input file...  [3.7e-05s]
+Closing the output file...  [0.000784s]
+Closing the database file...  [2.7e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 106.293s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.000115s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.792303s]
+Opening the output file...  [0.000972s]
+Loading query sequences...  [74.6753s]
+Masking queries...  [16.1549s]
+Building query seed set...  [0.114827s]
+Algorithm: Double-indexed
+Building query histograms...  [2.30859s]
+Allocating buffers...  [0.000597s]
+Loading reference sequences...  [0.000112s]
+Masking reference...  [0.012002s]
+Building reference histograms...  [0.012057s]
+Allocating buffers...  [0.000117s]
+Initializing temporary storage...  [0.013168s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.03751s]
+Building query seed array...  [1.84965s]
+Computing hash join...  [0.52478s]
+Building seed filter...  [0.059661s]
+Searching alignments...  [0.025813s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.04514s]
+Building query seed array...  [2.234s]
+Computing hash join...  [0.192929s]
+Building seed filter...  [0.022923s]
+Searching alignments...  [0.049871s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.023095s]
+Building query seed array...  [1.61909s]
+Computing hash join...  [0.323578s]
+Building seed filter...  [0.045737s]
+Searching alignments...  [0.020476s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.04193s]
+Building query seed array...  [1.4537s]
+Computing hash join...  [0.207369s]
+Building seed filter...  [0.053111s]
+Searching alignments...  [0.0228s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.020986s]
+Building query seed array...  [1.1528s]
+Computing hash join...  [0.153968s]
+Building seed filter...  [0.048155s]
+Searching alignments...  [0.023003s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.028069s]
+Building query seed array...  [1.45844s]
+Computing hash join...  [0.174947s]
+Building seed filter...  [0.056445s]
+Searching alignments...  [0.019969s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.021964s]
+Building query seed array...  [1.42711s]
+Computing hash join...  [0.172897s]
+Building seed filter...  [0.068991s]
+Searching alignments...  [0.02378s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.025959s]
+Building query seed array...  [1.09635s]
+Computing hash join...  [0.167594s]
+Building seed filter...  [0.044153s]
+Searching alignments...  [0.020939s]
+Deallocating buffers...  [9e-06s]
+Computing alignments...  [2.75733s]
+Deallocating reference...  [9e-06s]
+Loading reference sequences...  [4.8e-05s]
+Deallocating buffers...  [0.004776s]
+Deallocating queries...  [0.010025s]
+Loading query sequences...  [4e-05s]
+Closing the input file...  [0.000375s]
+Closing the output file...  [0.005241s]
+Closing the database file...  [2.5e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 111.925s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [9.4e-05s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.746321s]
+Opening the output file...  [0.000831s]
+Loading query sequences...  [79.8669s]
+Masking queries...  [19.7562s]
+Building query seed set...  [0.140865s]
+Algorithm: Double-indexed
+Building query histograms...  [2.0316s]
+Allocating buffers...  [0.000796s]
+Loading reference sequences...  [0.000126s]
+Masking reference...  [0.016063s]
+Building reference histograms...  [0.012885s]
+Allocating buffers...  [0.000116s]
+Initializing temporary storage...  [0.019407s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.012381s]
+Building query seed array...  [1.16205s]
+Computing hash join...  [0.299932s]
+Building seed filter...  [0.055853s]
+Searching alignments...  [0.023376s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.033684s]
+Building query seed array...  [1.38507s]
+Computing hash join...  [0.161365s]
+Building seed filter...  [0.023374s]
+Searching alignments...  [0.013085s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.010889s]
+Building query seed array...  [1.34762s]
+Computing hash join...  [0.183049s]
+Building seed filter...  [0.034207s]
+Searching alignments...  [0.016577s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.018448s]
+Building query seed array...  [0.971624s]
+Computing hash join...  [0.160513s]
+Building seed filter...  [0.042842s]
+Searching alignments...  [0.024724s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.025287s]
+Building query seed array...  [0.683715s]
+Computing hash join...  [0.079944s]
+Building seed filter...  [0.015913s]
+Searching alignments...  [0.005295s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.004275s]
+Building query seed array...  [0.751302s]
+Computing hash join...  [0.076108s]
+Building seed filter...  [0.013425s]
+Searching alignments...  [0.004815s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.007985s]
+Building query seed array...  [0.823746s]
+Computing hash join...  [0.069016s]
+Building seed filter...  [0.015382s]
+Searching alignments...  [0.006017s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.009712s]
+Building query seed array...  [0.570203s]
+Computing hash join...  [0.071158s]
+Building seed filter...  [0.010954s]
+Searching alignments...  [0.005768s]
+Deallocating buffers...  [8e-06s]
+Computing alignments...  [6.3981s]
+Deallocating reference...  [9e-06s]
+Loading reference sequences...  [5.1e-05s]
+Deallocating buffers...  [0.004938s]
+Deallocating queries...  [0.010133s]
+Loading query sequences...  [6.4e-05s]
+Closing the input file...  [4.9e-05s]
+Closing the output file...  [0.001436s]
+Closing the database file...  [2.4e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 118.24s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.000126s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.835455s]
+Opening the output file...  [0.000708s]
+Loading query sequences...  [94.8125s]
+Masking queries...  [17.9574s]
+Building query seed set...  [0.071984s]
+Algorithm: Double-indexed
+Building query histograms...  [1.8366s]
+Allocating buffers...  [0.000599s]
+Loading reference sequences...  [0.000105s]
+Masking reference...  [0.003025s]
+Building reference histograms...  [0.003604s]
+Allocating buffers...  [0.000111s]
+Initializing temporary storage...  [0.01144s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.005379s]
+Building query seed array...  [1.05312s]
+Computing hash join...  [0.295637s]
+Building seed filter...  [0.019588s]
+Searching alignments...  [0.002183s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.004579s]
+Building query seed array...  [1.66047s]
+Computing hash join...  [0.195644s]
+Building seed filter...  [0.02773s]
+Searching alignments...  [0.009624s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.013008s]
+Building query seed array...  [1.89845s]
+Computing hash join...  [0.173451s]
+Building seed filter...  [0.041238s]
+Searching alignments...  [0.012226s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.017525s]
+Building query seed array...  [1.51473s]
+Computing hash join...  [0.19934s]
+Building seed filter...  [0.033795s]
+Searching alignments...  [0.014694s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.008161s]
+Building query seed array...  [1.86568s]
+Computing hash join...  [0.301739s]
+Building seed filter...  [0.035927s]
+Searching alignments...  [0.027553s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.021686s]
+Building query seed array...  [2.49817s]
+Computing hash join...  [0.243213s]
+Building seed filter...  [0.053019s]
+Searching alignments...  [0.033675s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.050138s]
+Building query seed array...  [3.61163s]
+Computing hash join...  [0.374432s]
+Building seed filter...  [0.055195s]
+Searching alignments...  [0.028543s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.018802s]
+Building query seed array...  [3.11217s]
+Computing hash join...  [0.46241s]
+Building seed filter...  [0.058381s]
+Searching alignments...  [0.026223s]
+Deallocating buffers...  [8e-06s]
+Computing alignments...  [4.75469s]
+Deallocating reference...  [1e-05s]
+Loading reference sequences...  [5.3e-05s]
+Deallocating buffers...  [0.006369s]
+Deallocating queries...  [0.014431s]
+Loading query sequences...  [5.1e-05s]
+Closing the input file...  [0.01677s]
+Closing the output file...  [0.002587s]
+Closing the database file...  [2.8e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 140.41s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.000101s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.629785s]
+Opening the output file...  [0.00098s]
+Loading query sequences...  [112.286s]
+Masking queries...  [34.1035s]
+Building query seed set...  [0.33601s]
+Algorithm: Double-indexed
+Building query histograms...  [7.86095s]
+Allocating buffers...  [0.000713s]
+Loading reference sequences...  [0.000136s]
+Masking reference...  [0.032821s]
+Building reference histograms...  [0.069728s]
+Allocating buffers...  [0.000131s]
+Initializing temporary storage...  [0.016478s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.043385s]
+Building query seed array...  [5.43493s]
+Computing hash join...  [1.17979s]
+Building seed filter...  [0.11748s]
+Searching alignments...  [0.037643s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.05544s]
+Building query seed array...  [6.86345s]
+Computing hash join...  [0.630344s]
+Building seed filter...  [0.062207s]
+Searching alignments...  [0.046445s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.036201s]
+Building query seed array...  [6.77604s]
+Computing hash join...  [0.570909s]
+Building seed filter...  [0.069773s]
+Searching alignments...  [0.02294s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.035972s]
+Building query seed array...  [4.63137s]
+Computing hash join...  [0.394196s]
+Building seed filter...  [0.085787s]
+Searching alignments...  [0.039714s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.023762s]
+Building query seed array...  [3.68592s]
+Computing hash join...  [0.48947s]
+Building seed filter...  [0.062604s]
+Searching alignments...  [0.047078s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.047005s]
+Building query seed array...  [6.04844s]
+Computing hash join...  [0.63966s]
+Building seed filter...  [0.085774s]
+Searching alignments...  [0.038992s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.043036s]
+Building query seed array...  [6.17894s]
+Computing hash join...  [0.453463s]
+Building seed filter...  [0.144442s]
+Searching alignments...  [0.028917s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.056905s]
+Building query seed array...  [3.89728s]
+Computing hash join...  [0.553775s]
+Building seed filter...  [0.091909s]
+Searching alignments...  [0.029992s]
+Deallocating buffers...  [9e-06s]
+Computing alignments...  [5.73013s]
+Deallocating reference...  [1e-05s]
+Loading reference sequences...  [5.8e-05s]
+Deallocating buffers...  [0.006629s]
+Deallocating queries...  [0.045971s]
+Loading query sequences...  [5.6e-05s]
+Closing the input file...  [4.5e-05s]
+Closing the output file...  [0.000989s]
+Closing the database file...  [2.7e-05s]
+Deallocating taxonomy...  [8e-06s]
+Total time = 210.906s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [9.6e-05s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [1.25365s]
+Opening the output file...  [0.001011s]
+Loading query sequences...  [116.052s]
+Masking queries...  [39.4372s]
+Building query seed set...  [0.615157s]
+Algorithm: Double-indexed
+Building query histograms...  [8.76663s]
+Allocating buffers...  [0.000784s]
+Loading reference sequences...  [0.000122s]
+Masking reference...  [0.116046s]
+Building reference histograms...  [0.040902s]
+Allocating buffers...  [0.000124s]
+Initializing temporary storage...  [0.013944s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.084827s]
+Building query seed array...  [5.78755s]
+Computing hash join...  [1.3426s]
+Building seed filter...  [0.139856s]
+Searching alignments...  [0.083876s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.032864s]
+Building query seed array...  [6.74619s]
+Computing hash join...  [0.762439s]
+Building seed filter...  [0.117339s]
+Searching alignments...  [0.044491s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.078544s]
+Building query seed array...  [6.42641s]
+Computing hash join...  [0.793516s]
+Building seed filter...  [0.145965s]
+Searching alignments...  [0.059864s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.089027s]
+Building query seed array...  [4.0226s]
+Computing hash join...  [0.666708s]
+Building seed filter...  [0.093525s]
+Searching alignments...  [0.094199s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.05475s]
+Building query seed array...  [5.2053s]
+Computing hash join...  [0.501438s]
+Building seed filter...  [0.076547s]
+Searching alignments...  [0.029651s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.066269s]
+Building query seed array...  [4.00989s]
+Computing hash join...  [0.499766s]
+Building seed filter...  [0.080953s]
+Searching alignments...  [0.025105s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.030917s]
+Building query seed array...  [5.75864s]
+Computing hash join...  [0.597624s]
+Building seed filter...  [0.056523s]
+Searching alignments...  [0.028024s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.030049s]
+Building query seed array...  [4.10081s]
+Computing hash join...  [0.488841s]
+Building seed filter...  [0.050221s]
+Searching alignments...  [0.024073s]
+Deallocating buffers...  [8e-06s]
+Computing alignments...  [7.05379s]
+Deallocating reference...  [9e-06s]
+Loading reference sequences...  [6.2e-05s]
+Deallocating buffers...  [0.008585s]
+Deallocating queries...  [0.018166s]
+Loading query sequences...  [7e-05s]
+Closing the input file...  [4.9e-05s]
+Closing the output file...  [0.013962s]
+Closing the database file...  [2.8e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 222.723s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.000112s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.581812s]
+Opening the output file...  [0.000675s]
+Loading query sequences...  [122.527s]
+Masking queries...  [60.9006s]
+Building query seed set...  [0.839916s]
+Algorithm: Double-indexed
+Building query histograms...  [5.63815s]
+Allocating buffers...  [0.000784s]
+Loading reference sequences...  [0.000129s]
+Masking reference...  [0.050317s]
+Building reference histograms...  [0.050922s]
+Allocating buffers...  [0.000131s]
+Initializing temporary storage...  [0.012681s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.069344s]
+Building query seed array...  [3.89886s]
+Computing hash join...  [0.8839s]
+Building seed filter...  [0.078889s]
+Searching alignments...  [0.040031s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.029006s]
+Building query seed array...  [4.0165s]
+Computing hash join...  [0.271256s]
+Building seed filter...  [0.04825s]
+Searching alignments...  [0.032941s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.029829s]
+Building query seed array...  [4.24104s]
+Computing hash join...  [0.48116s]
+Building seed filter...  [0.052906s]
+Searching alignments...  [0.069955s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.034947s]
+Building query seed array...  [2.86783s]
+Computing hash join...  [0.459468s]
+Building seed filter...  [0.053585s]
+Searching alignments...  [0.038264s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.027731s]
+Building query seed array...  [3.36326s]
+Computing hash join...  [0.282072s]
+Building seed filter...  [0.050477s]
+Searching alignments...  [0.016942s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.028016s]
+Building query seed array...  [3.39376s]
+Computing hash join...  [0.236483s]
+Building seed filter...  [0.046781s]
+Searching alignments...  [0.023938s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.034146s]
+Building query seed array...  [4.52744s]
+Computing hash join...  [0.2991s]
+Building seed filter...  [0.070136s]
+Searching alignments...  [0.029989s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.035098s]
+Building query seed array...  [2.8844s]
+Computing hash join...  [0.309018s]
+Building seed filter...  [0.061466s]
+Searching alignments...  [0.03294s]
+Deallocating buffers...  [9e-06s]
+Computing alignments...  [10.3481s]
+Deallocating reference...  [9e-06s]
+Loading reference sequences...  [5.8e-05s]
+Deallocating buffers...  [0.004469s]
+Deallocating queries...  [0.012341s]
+Loading query sequences...  [5.2e-05s]
+Closing the input file...  [5.1e-05s]
+Closing the output file...  [0.016578s]
+Closing the database file...  [3.3e-05s]
+Deallocating taxonomy...  [8e-06s]
+Total time = 234.438s
+Reported 10 pairwise alignments, 10 HSPs.
+1 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [9.6e-05s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [1.45774s]
+Opening the output file...  [0.000986s]
+Loading query sequences...  [128.511s]
+Masking queries...  [62.3763s]
+Building query seed set...  [0.376158s]
+Algorithm: Double-indexed
+Building query histograms...  [7.97039s]
+Allocating buffers...  [0.000791s]
+Loading reference sequences...  [0.000134s]
+Masking reference...  [0.072835s]
+Building reference histograms...  [0.040003s]
+Allocating buffers...  [0.000125s]
+Initializing temporary storage...  [0.010667s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.033057s]
+Building query seed array...  [4.88829s]
+Computing hash join...  [0.948648s]
+Building seed filter...  [0.069005s]
+Searching alignments...  [0.025019s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.026857s]
+Building query seed array...  [5.68034s]
+Computing hash join...  [0.675787s]
+Building seed filter...  [0.067859s]
+Searching alignments...  [0.037152s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.052659s]
+Building query seed array...  [6.2267s]
+Computing hash join...  [0.74778s]
+Building seed filter...  [0.144931s]
+Searching alignments...  [0.039651s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.079855s]
+Building query seed array...  [4.74368s]
+Computing hash join...  [0.617442s]
+Building seed filter...  [0.057871s]
+Searching alignments...  [0.029017s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.024039s]
+Building query seed array...  [3.88658s]
+Computing hash join...  [0.563124s]
+Building seed filter...  [0.110066s]
+Searching alignments...  [0.022143s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.032142s]
+Building query seed array...  [5.44021s]
+Computing hash join...  [0.561441s]
+Building seed filter...  [0.060957s]
+Searching alignments...  [0.022048s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.028991s]
+Building query seed array...  [5.53627s]
+Computing hash join...  [0.540805s]
+Building seed filter...  [0.057817s]
+Searching alignments...  [0.026985s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.029024s]
+Building query seed array...  [3.22167s]
+Computing hash join...  [0.278313s]
+Building seed filter...  [0.074931s]
+Searching alignments...  [0.023971s]
+Deallocating buffers...  [8e-06s]
+Computing alignments...  [6.56182s]
+Deallocating reference...  [8e-06s]
+Loading reference sequences...  [4.5e-05s]
+Deallocating buffers...  [0.007988s]
+Deallocating queries...  [0.013114s]
+Loading query sequences...  [2.58551s]
+Masking queries...  [1.6149s]
+Building query seed set...  [7e-06s]
+Building query histograms...  [0.153091s]
+Allocating buffers...  [0.000601s]
+Loading reference sequences...  [9.8e-05s]
+Masking reference...  [0.00248s]
+Building reference histograms...  [0.001646s]
+Allocating buffers...  [0.000118s]
+Initializing temporary storage...  [0.013784s]
+Processing query block 1, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.003429s]
+Building query seed array...  [0.160045s]
+Computing hash join...  [0.014715s]
+Building seed filter...  [0.004047s]
+Searching alignments...  [0.001418s]
+Processing query block 1, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.003242s]
+Building query seed array...  [0.147648s]
+Computing hash join...  [0.014041s]
+Building seed filter...  [0.004137s]
+Searching alignments...  [0.00132s]
+Processing query block 1, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.003416s]
+Building query seed array...  [0.147474s]
+Computing hash join...  [0.020441s]
+Building seed filter...  [0.003354s]
+Searching alignments...  [0.001413s]
+Processing query block 1, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.003126s]
+Building query seed array...  [0.123929s]
+Computing hash join...  [0.012942s]
+Building seed filter...  [0.003102s]
+Searching alignments...  [0.001305s]
+Processing query block 1, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.003001s]
+Building query seed array...  [0.081137s]
+Computing hash join...  [0.012784s]
+Building seed filter...  [0.003406s]
+Searching alignments...  [0.001326s]
+Processing query block 1, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.002932s]
+Building query seed array...  [0.099313s]
+Computing hash join...  [0.013163s]
+Building seed filter...  [0.00287s]
+Searching alignments...  [0.001097s]
+Processing query block 1, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.002831s]
+Building query seed array...  [0.103736s]
+Computing hash join...  [0.01098s]
+Building seed filter...  [0.002947s]
+Searching alignments...  [0.001157s]
+Processing query block 1, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.002925s]
+Building query seed array...  [0.083375s]
+Computing hash join...  [0.011779s]
+Building seed filter...  [0.003418s]
+Searching alignments...  [0.001141s]
+Deallocating buffers...  [9e-06s]
+Computing alignments...  [0.643561s]
+Deallocating reference...  [8e-06s]
+Loading reference sequences...  [5e-05s]
+Deallocating buffers...  [0.000958s]
+Deallocating queries...  [0.003412s]
+Loading query sequences...  [3.3e-05s]
+Closing the input file...  [4.7e-05s]
+Closing the output file...  [0.000741s]
+Closing the database file...  [2.1e-05s]
+Deallocating taxonomy...  [6e-06s]
+Total time = 259.278s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.0001s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.774008s]
+Opening the output file...  [0.000689s]
+Loading query sequences...  [140.824s]
+Masking queries...  [64.6307s]
+Building query seed set...  [1.23593s]
+Algorithm: Double-indexed
+Building query histograms...  [6.49953s]
+Allocating buffers...  [0.000826s]
+Loading reference sequences...  [0.000143s]
+Masking reference...  [0.028168s]
+Building reference histograms...  [0.028955s]
+Allocating buffers...  [0.000127s]
+Initializing temporary storage...  [0.011886s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.025822s]
+Building query seed array...  [3.74755s]
+Computing hash join...  [0.644705s]
+Building seed filter...  [0.072831s]
+Searching alignments...  [0.034987s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.022953s]
+Building query seed array...  [4.92105s]
+Computing hash join...  [0.414455s]
+Building seed filter...  [0.059438s]
+Searching alignments...  [0.024908s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.026011s]
+Building query seed array...  [4.9687s]
+Computing hash join...  [0.432574s]
+Building seed filter...  [0.05564s]
+Searching alignments...  [0.038991s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.027997s]
+Building query seed array...  [3.34424s]
+Computing hash join...  [0.393041s]
+Building seed filter...  [0.058548s]
+Searching alignments...  [0.019073s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.022921s]
+Building query seed array...  [2.53336s]
+Computing hash join...  [0.366865s]
+Building seed filter...  [0.058662s]
+Searching alignments...  [0.022095s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.037959s]
+Building query seed array...  [3.53197s]
+Computing hash join...  [0.412369s]
+Building seed filter...  [0.068607s]
+Searching alignments...  [0.062923s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.034992s]
+Building query seed array...  [4.06582s]
+Computing hash join...  [0.407447s]
+Building seed filter...  [0.060705s]
+Searching alignments...  [0.039857s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.02996s]
+Building query seed array...  [1.96463s]
+Computing hash join...  [0.273168s]
+Building seed filter...  [0.045267s]
+Searching alignments...  [0.015048s]
+Deallocating buffers...  [9e-06s]
+Computing alignments...  [10.6736s]
+Deallocating reference...  [8e-06s]
+Loading reference sequences...  [5.8e-05s]
+Deallocating buffers...  [0.007435s]
+Deallocating queries...  [0.010848s]
+Loading query sequences...  [2.26306s]
+Masking queries...  [1.55878s]
+Building query seed set...  [7e-06s]
+Building query histograms...  [0.109515s]
+Allocating buffers...  [0.000604s]
+Loading reference sequences...  [9.2e-05s]
+Masking reference...  [0.001513s]
+Building reference histograms...  [0.001479s]
+Allocating buffers...  [0.000114s]
+Initializing temporary storage...  [0.008689s]
+Processing query block 1, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.002497s]
+Building query seed array...  [0.110385s]
+Computing hash join...  [0.043902s]
+Building seed filter...  [0.002456s]
+Searching alignments...  [0.001121s]
+Processing query block 1, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.002356s]
+Building query seed array...  [0.087973s]
+Computing hash join...  [0.020315s]
+Building seed filter...  [0.002558s]
+Searching alignments...  [0.001108s]
+Processing query block 1, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.002297s]
+Building query seed array...  [0.096504s]
+Computing hash join...  [0.065288s]
+Building seed filter...  [0.014573s]
+Searching alignments...  [0.013518s]
+Processing query block 1, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.007125s]
+Building query seed array...  [0.139331s]
+Computing hash join...  [0.041826s]
+Building seed filter...  [0.021886s]
+Searching alignments...  [0.006806s]
+Processing query block 1, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.008828s]
+Building query seed array...  [0.14765s]
+Computing hash join...  [0.069173s]
+Building seed filter...  [0.0615s]
+Searching alignments...  [0.011224s]
+Processing query block 1, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.007366s]
+Building query seed array...  [0.16518s]
+Computing hash join...  [0.032715s]
+Building seed filter...  [0.040551s]
+Searching alignments...  [0.011843s]
+Processing query block 1, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.020564s]
+Building query seed array...  [0.184641s]
+Computing hash join...  [0.036976s]
+Building seed filter...  [0.036911s]
+Searching alignments...  [0.014175s]
+Processing query block 1, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.018676s]
+Building query seed array...  [0.14039s]
+Computing hash join...  [0.038872s]
+Building seed filter...  [0.028024s]
+Searching alignments...  [0.015145s]
+Deallocating buffers...  [8e-06s]
+Computing alignments...  [0.54052s]
+Deallocating reference...  [9e-06s]
+Loading reference sequences...  [5.6e-05s]
+Deallocating buffers...  [0.000898s]
+Deallocating queries...  [0.004674s]
+Loading query sequences...  [3.8e-05s]
+Closing the input file...  [5.2e-05s]
+Closing the output file...  [0.003146s]
+Closing the database file...  [2.2e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 264.386s
+Reported 1 pairwise alignments, 1 HSPs.
+1 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [9.4e-05s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.789553s]
+Opening the output file...  [0.001034s]
+Loading query sequences...  [135.988s]
+Masking queries...  [64.3917s]
+Building query seed set...  [0.883531s]
+Algorithm: Double-indexed
+Building query histograms...  [6.5928s]
+Allocating buffers...  [0.000814s]
+Loading reference sequences...  [0.000151s]
+Masking reference...  [0.024973s]
+Building reference histograms...  [0.028976s]
+Allocating buffers...  [0.000117s]
+Initializing temporary storage...  [0.012845s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.043973s]
+Building query seed array...  [4.09253s]
+Computing hash join...  [0.741966s]
+Building seed filter...  [0.055493s]
+Searching alignments...  [0.027985s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.035899s]
+Building query seed array...  [4.96817s]
+Computing hash join...  [0.533036s]
+Building seed filter...  [0.137773s]
+Searching alignments...  [0.024944s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.028891s]
+Building query seed array...  [5.09933s]
+Computing hash join...  [0.34689s]
+Building seed filter...  [0.119812s]
+Searching alignments...  [0.093103s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.025758s]
+Building query seed array...  [3.69975s]
+Computing hash join...  [0.374237s]
+Building seed filter...  [0.052976s]
+Searching alignments...  [0.031058s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.086132s]
+Building query seed array...  [3.66507s]
+Computing hash join...  [0.37591s]
+Building seed filter...  [0.083235s]
+Searching alignments...  [0.02847s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.024975s]
+Building query seed array...  [4.03984s]
+Computing hash join...  [0.408747s]
+Building seed filter...  [0.051414s]
+Searching alignments...  [0.030944s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.026928s]
+Building query seed array...  [4.24216s]
+Computing hash join...  [0.373072s]
+Building seed filter...  [0.057709s]
+Searching alignments...  [0.055816s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.026264s]
+Building query seed array...  [2.88627s]
+Computing hash join...  [0.232043s]
+Building seed filter...  [0.060527s]
+Searching alignments...  [0.037538s]
+Deallocating buffers...  [1e-05s]
+Computing alignments...  [10.8293s]
+Deallocating reference...  [7e-06s]
+Loading reference sequences...  [4.5e-05s]
+Deallocating buffers...  [0.005225s]
+Deallocating queries...  [0.01263s]
+Loading query sequences...  [5.53902s]
+Masking queries...  [4.51805s]
+Building query seed set...  [7e-06s]
+Building query histograms...  [0.485126s]
+Allocating buffers...  [0.000902s]
+Loading reference sequences...  [0.000117s]
+Masking reference...  [0.009215s]
+Building reference histograms...  [0.016121s]
+Allocating buffers...  [0.000116s]
+Initializing temporary storage...  [0.009923s]
+Processing query block 1, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.017881s]
+Building query seed array...  [0.311452s]
+Computing hash join...  [0.043777s]
+Building seed filter...  [0.021093s]
+Searching alignments...  [0.013002s]
+Processing query block 1, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.015531s]
+Building query seed array...  [0.368602s]
+Computing hash join...  [0.044664s]
+Building seed filter...  [0.047886s]
+Searching alignments...  [0.006542s]
+Processing query block 1, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.018779s]
+Building query seed array...  [0.403066s]
+Computing hash join...  [0.045607s]
+Building seed filter...  [0.028057s]
+Searching alignments...  [0.015809s]
+Processing query block 1, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.014742s]
+Building query seed array...  [0.371404s]
+Computing hash join...  [0.054627s]
+Building seed filter...  [0.031363s]
+Searching alignments...  [0.00463s]
+Processing query block 1, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.008567s]
+Building query seed array...  [0.18892s]
+Computing hash join...  [0.019802s]
+Building seed filter...  [0.005309s]
+Searching alignments...  [0.001804s]
+Processing query block 1, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.003453s]
+Building query seed array...  [0.239281s]
+Computing hash join...  [0.047107s]
+Building seed filter...  [0.03592s]
+Searching alignments...  [0.020995s]
+Processing query block 1, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.021846s]
+Building query seed array...  [0.412453s]
+Computing hash join...  [0.020154s]
+Building seed filter...  [0.015476s]
+Searching alignments...  [0.005174s]
+Processing query block 1, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.009637s]
+Building query seed array...  [0.179938s]
+Computing hash join...  [0.048568s]
+Building seed filter...  [0.039523s]
+Searching alignments...  [0.024048s]
+Deallocating buffers...  [9e-06s]
+Computing alignments...  [1.45583s]
+Deallocating reference...  [1e-05s]
+Loading reference sequences...  [4.3e-05s]
+Deallocating buffers...  [0.001351s]
+Deallocating queries...  [0.003156s]
+Loading query sequences...  [4e-05s]
+Closing the input file...  [0.001788s]
+Closing the output file...  [0.003334s]
+Closing the database file...  [2.2e-05s]
+Deallocating taxonomy...  [8e-06s]
+Total time = 272.163s
+Reported 2 pairwise alignments, 2 HSPs.
+1 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [9.9e-05s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.8651s]
+Opening the output file...  [0.000836s]
+Loading query sequences...  [132.774s]
+Masking queries...  [64.7021s]
+Building query seed set...  [0.216548s]
+Algorithm: Double-indexed
+Building query histograms...  [5.43704s]
+Allocating buffers...  [0.000882s]
+Loading reference sequences...  [0.000145s]
+Masking reference...  [0.033156s]
+Building reference histograms...  [0.03s]
+Allocating buffers...  [0.000134s]
+Initializing temporary storage...  [0.009975s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.044931s]
+Building query seed array...  [4.36768s]
+Computing hash join...  [0.959419s]
+Building seed filter...  [0.050815s]
+Searching alignments...  [0.03185s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.026025s]
+Building query seed array...  [4.91995s]
+Computing hash join...  [0.5208s]
+Building seed filter...  [0.063214s]
+Searching alignments...  [0.026973s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.033005s]
+Building query seed array...  [5.2622s]
+Computing hash join...  [0.542798s]
+Building seed filter...  [0.063833s]
+Searching alignments...  [0.032105s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.028842s]
+Building query seed array...  [3.81898s]
+Computing hash join...  [0.375526s]
+Building seed filter...  [0.059482s]
+Searching alignments...  [0.128101s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.066886s]
+Building query seed array...  [3.81545s]
+Computing hash join...  [0.492434s]
+Building seed filter...  [0.107204s]
+Searching alignments...  [0.02793s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.035027s]
+Building query seed array...  [4.80194s]
+Computing hash join...  [0.330937s]
+Building seed filter...  [0.049722s]
+Searching alignments...  [0.02611s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.023873s]
+Building query seed array...  [3.65029s]
+Computing hash join...  [0.284669s]
+Building seed filter...  [0.065078s]
+Searching alignments...  [0.020979s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.036991s]
+Building query seed array...  [2.79291s]
+Computing hash join...  [0.34058s]
+Building seed filter...  [0.103342s]
+Searching alignments...  [0.024082s]
+Deallocating buffers...  [9e-06s]
+Computing alignments...  [9.67688s]
+Deallocating reference...  [9e-06s]
+Loading reference sequences...  [4.5e-05s]
+Deallocating buffers...  [0.006944s]
+Deallocating queries...  [0.01525s]
+Loading query sequences...  [10.2118s]
+Masking queries...  [7.33207s]
+Building query seed set...  [8e-06s]
+Building query histograms...  [0.648367s]
+Allocating buffers...  [0.000761s]
+Loading reference sequences...  [0.000115s]
+Masking reference...  [0.019544s]
+Building reference histograms...  [0.036942s]
+Allocating buffers...  [0.000122s]
+Initializing temporary storage...  [0.009926s]
+Processing query block 1, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.021573s]
+Building query seed array...  [0.37154s]
+Computing hash join...  [0.080143s]
+Building seed filter...  [0.005773s]
+Searching alignments...  [0.003858s]
+Processing query block 1, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.005494s]
+Building query seed array...  [0.447126s]
+Computing hash join...  [0.047644s]
+Building seed filter...  [0.008497s]
+Searching alignments...  [0.003782s]
+Processing query block 1, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.003244s]
+Building query seed array...  [0.557989s]
+Computing hash join...  [0.052023s]
+Building seed filter...  [0.00697s]
+Searching alignments...  [0.005603s]
+Processing query block 1, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.005672s]
+Building query seed array...  [0.33171s]
+Computing hash join...  [0.03832s]
+Building seed filter...  [0.009905s]
+Searching alignments...  [0.00461s]
+Processing query block 1, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.005406s]
+Building query seed array...  [0.268631s]
+Computing hash join...  [0.034574s]
+Building seed filter...  [0.006436s]
+Searching alignments...  [0.006979s]
+Processing query block 1, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.005075s]
+Building query seed array...  [0.361984s]
+Computing hash join...  [0.031226s]
+Building seed filter...  [0.010614s]
+Searching alignments...  [0.003316s]
+Processing query block 1, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.002939s]
+Building query seed array...  [0.361335s]
+Computing hash join...  [0.03351s]
+Building seed filter...  [0.012547s]
+Searching alignments...  [0.004389s]
+Processing query block 1, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.006476s]
+Building query seed array...  [0.276078s]
+Computing hash join...  [0.032555s]
+Building seed filter...  [0.010597s]
+Searching alignments...  [0.004041s]
+Deallocating buffers...  [8e-06s]
+Computing alignments...  [2.87603s]
+Deallocating reference...  [9e-06s]
+Loading reference sequences...  [5.6e-05s]
+Deallocating buffers...  [0.002222s]
+Deallocating queries...  [0.004223s]
+Loading query sequences...  [5.2e-05s]
+Closing the input file...  [6.8e-05s]
+Closing the output file...  [0.003626s]
+Closing the database file...  [2e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 276.862s
+Reported 1 pairwise alignments, 1 HSPs.
+1 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.000107s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [1.58535s]
+Opening the output file...  [0.001069s]
+Loading query sequences...  [140.656s]
+Masking queries...  [61.6494s]
+Building query seed set...  [0.924247s]
+Algorithm: Double-indexed
+Building query histograms...  [6.87874s]
+Allocating buffers...  [0.000798s]
+Loading reference sequences...  [0.000132s]
+Masking reference...  [0.034277s]
+Building reference histograms...  [0.031412s]
+Allocating buffers...  [0.000128s]
+Initializing temporary storage...  [0.012777s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.034674s]
+Building query seed array...  [3.78654s]
+Computing hash join...  [0.811343s]
+Building seed filter...  [0.056423s]
+Searching alignments...  [0.030623s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.060096s]
+Building query seed array...  [4.94471s]
+Computing hash join...  [0.557122s]
+Building seed filter...  [0.060831s]
+Searching alignments...  [0.031002s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.027957s]
+Building query seed array...  [4.82153s]
+Computing hash join...  [0.603343s]
+Building seed filter...  [0.091011s]
+Searching alignments...  [0.029037s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.041105s]
+Building query seed array...  [4.03611s]
+Computing hash join...  [0.692443s]
+Building seed filter...  [0.055342s]
+Searching alignments...  [0.020971s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.02597s]
+Building query seed array...  [2.66596s]
+Computing hash join...  [0.367575s]
+Building seed filter...  [0.047335s]
+Searching alignments...  [0.018971s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.059933s]
+Building query seed array...  [3.47127s]
+Computing hash join...  [0.343631s]
+Building seed filter...  [0.054682s]
+Searching alignments...  [0.035291s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.041968s]
+Building query seed array...  [3.62732s]
+Computing hash join...  [0.342176s]
+Building seed filter...  [0.041561s]
+Searching alignments...  [0.02098s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.023876s]
+Building query seed array...  [2.29891s]
+Computing hash join...  [0.253763s]
+Building seed filter...  [0.045353s]
+Searching alignments...  [0.017995s]
+Deallocating buffers...  [9e-06s]
+Computing alignments...  [10.4223s]
+Deallocating reference...  [1.2e-05s]
+Loading reference sequences...  [6.5e-05s]
+Deallocating buffers...  [0.00562s]
+Deallocating queries...  [0.014777s]
+Loading query sequences...  [8.44787s]
+Masking queries...  [10.1144s]
+Building query seed set...  [7e-06s]
+Building query histograms...  [0.361405s]
+Allocating buffers...  [0.000672s]
+Loading reference sequences...  [9.6e-05s]
+Masking reference...  [0.001381s]
+Building reference histograms...  [0.001276s]
+Allocating buffers...  [0.000109s]
+Initializing temporary storage...  [0.01306s]
+Processing query block 1, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.002522s]
+Building query seed array...  [0.190909s]
+Computing hash join...  [0.031277s]
+Building seed filter...  [0.002374s]
+Searching alignments...  [0.001109s]
+Processing query block 1, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.002331s]
+Building query seed array...  [0.231478s]
+Computing hash join...  [0.022207s]
+Building seed filter...  [0.002326s]
+Searching alignments...  [0.001071s]
+Processing query block 1, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.002406s]
+Building query seed array...  [0.246217s]
+Computing hash join...  [0.023182s]
+Building seed filter...  [0.002511s]
+Searching alignments...  [0.001062s]
+Processing query block 1, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.002237s]
+Building query seed array...  [0.189275s]
+Computing hash join...  [0.022848s]
+Building seed filter...  [0.002191s]
+Searching alignments...  [0.001028s]
+Processing query block 1, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.002219s]
+Building query seed array...  [0.16583s]
+Computing hash join...  [0.019004s]
+Building seed filter...  [0.002451s]
+Searching alignments...  [0.001011s]
+Processing query block 1, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.002202s]
+Building query seed array...  [0.197094s]
+Computing hash join...  [0.01925s]
+Building seed filter...  [0.002426s]
+Searching alignments...  [0.001035s]
+Processing query block 1, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.002259s]
+Building query seed array...  [0.203783s]
+Computing hash join...  [0.017878s]
+Building seed filter...  [0.002322s]
+Searching alignments...  [0.00104s]
+Processing query block 1, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.002207s]
+Building query seed array...  [0.164077s]
+Computing hash join...  [0.019081s]
+Building seed filter...  [0.002274s]
+Searching alignments...  [0.001051s]
+Deallocating buffers...  [7e-06s]
+Computing alignments...  [4.40333s]
+Deallocating reference...  [9e-06s]
+Loading reference sequences...  [5.5e-05s]
+Deallocating buffers...  [0.001867s]
+Deallocating queries...  [0.003304s]
+Loading query sequences...  [4.2e-05s]
+Closing the input file...  [6.7e-05s]
+Closing the output file...  [0.002681s]
+Closing the database file...  [2.1e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 281.978s
+Reported 28 pairwise alignments, 28 HSPs.
+2 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.000142s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.998567s]
+Opening the output file...  [0.000883s]
+Loading query sequences...  [126.766s]
+Masking queries...  [59.9941s]
+Building query seed set...  [0.721417s]
+Algorithm: Double-indexed
+Building query histograms...  [9.02072s]
+Allocating buffers...  [0.00067s]
+Loading reference sequences...  [0.000173s]
+Masking reference...  [0.032926s]
+Building reference histograms...  [0.023064s]
+Allocating buffers...  [0.000119s]
+Initializing temporary storage...  [0.010232s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.038555s]
+Building query seed array...  [4.13248s]
+Computing hash join...  [0.829796s]
+Building seed filter...  [0.049615s]
+Searching alignments...  [0.025989s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.027874s]
+Building query seed array...  [6.08638s]
+Computing hash join...  [0.713571s]
+Building seed filter...  [0.050074s]
+Searching alignments...  [0.115048s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.036871s]
+Building query seed array...  [6.25045s]
+Computing hash join...  [0.679619s]
+Building seed filter...  [0.085882s]
+Searching alignments...  [0.03895s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.029898s]
+Building query seed array...  [5.03199s]
+Computing hash join...  [1.02942s]
+Building seed filter...  [0.054543s]
+Searching alignments...  [0.045971s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.02594s]
+Building query seed array...  [3.91073s]
+Computing hash join...  [0.746581s]
+Building seed filter...  [0.056733s]
+Searching alignments...  [0.028992s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.035845s]
+Building query seed array...  [5.98232s]
+Computing hash join...  [0.520614s]
+Building seed filter...  [0.086713s]
+Searching alignments...  [0.087761s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.02861s]
+Building query seed array...  [5.38295s]
+Computing hash join...  [0.599691s]
+Building seed filter...  [0.05323s]
+Searching alignments...  [0.021059s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.026917s]
+Building query seed array...  [3.53232s]
+Computing hash join...  [0.622039s]
+Building seed filter...  [0.072592s]
+Searching alignments...  [0.030875s]
+Deallocating buffers...  [9e-06s]
+Computing alignments...  [5.00733s]
+Deallocating reference...  [8e-06s]
+Loading reference sequences...  [5.8e-05s]
+Deallocating buffers...  [0.012298s]
+Deallocating queries...  [0.047313s]
+Loading query sequences...  [30.6503s]
+Masking queries...  [21.2384s]
+Building query seed set...  [8e-06s]
+Building query histograms...  [1.95138s]
+Allocating buffers...  [0.001499s]
+Loading reference sequences...  [0.000129s]
+Masking reference...  [0.005113s]
+Building reference histograms...  [0.003144s]
+Allocating buffers...  [0.00011s]
+Initializing temporary storage...  [0.012306s]
+Processing query block 1, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.015s]
+Building query seed array...  [1.25686s]
+Computing hash join...  [0.230325s]
+Building seed filter...  [0.010214s]
+Searching alignments...  [0.001928s]
+Processing query block 1, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.007249s]
+Building query seed array...  [1.52576s]
+Computing hash join...  [0.142698s]
+Building seed filter...  [0.011205s]
+Searching alignments...  [0.001992s]
+Processing query block 1, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.00545s]
+Building query seed array...  [1.57305s]
+Computing hash join...  [0.159737s]
+Building seed filter...  [0.006559s]
+Searching alignments...  [0.002837s]
+Processing query block 1, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.005913s]
+Building query seed array...  [1.12644s]
+Computing hash join...  [0.105185s]
+Building seed filter...  [0.002407s]
+Searching alignments...  [0.00111s]
+Processing query block 1, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.002303s]
+Building query seed array...  [0.822519s]
+Computing hash join...  [0.182024s]
+Building seed filter...  [0.011586s]
+Searching alignments...  [0.001884s]
+Processing query block 1, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.00319s]
+Building query seed array...  [1.52574s]
+Computing hash join...  [0.12115s]
+Building seed filter...  [0.009892s]
+Searching alignments...  [0.001082s]
+Processing query block 1, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.007462s]
+Building query seed array...  [1.45071s]
+Computing hash join...  [0.177149s]
+Building seed filter...  [0.040965s]
+Searching alignments...  [0.018972s]
+Processing query block 1, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.02098s]
+Building query seed array...  [1.16251s]
+Computing hash join...  [0.195276s]
+Building seed filter...  [0.042979s]
+Searching alignments...  [0.013876s]
+Deallocating buffers...  [8e-06s]
+Computing alignments...  [5.69327s]
+Deallocating reference...  [8e-06s]
+Loading reference sequences...  [5.7e-05s]
+Deallocating buffers...  [0.007595s]
+Deallocating queries...  [0.009838s]
+Loading query sequences...  [2.89986s]
+Masking queries...  [2.91574s]
+Building query seed set...  [8e-06s]
+Building query histograms...  [0.195828s]
+Allocating buffers...  [0.000165s]
+Loading reference sequences...  [9.5e-05s]
+Masking reference...  [0.001325s]
+Building reference histograms...  [0.001295s]
+Allocating buffers...  [0.00011s]
+Initializing temporary storage...  [0.01295s]
+Processing query block 2, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.002577s]
+Building query seed array...  [0.115268s]
+Computing hash join...  [0.020765s]
+Building seed filter...  [0.002444s]
+Searching alignments...  [0.001129s]
+Processing query block 2, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.002394s]
+Building query seed array...  [0.149573s]
+Computing hash join...  [0.013921s]
+Building seed filter...  [0.002328s]
+Searching alignments...  [0.001093s]
+Processing query block 2, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.002251s]
+Building query seed array...  [0.179305s]
+Computing hash join...  [0.013833s]
+Building seed filter...  [0.002387s]
+Searching alignments...  [0.001062s]
+Processing query block 2, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.00237s]
+Building query seed array...  [0.124712s]
+Computing hash join...  [0.014001s]
+Building seed filter...  [0.00219s]
+Searching alignments...  [0.001154s]
+Processing query block 2, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.002353s]
+Building query seed array...  [0.104477s]
+Computing hash join...  [0.012807s]
+Building seed filter...  [0.002424s]
+Searching alignments...  [0.00115s]
+Processing query block 2, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.002345s]
+Building query seed array...  [0.148653s]
+Computing hash join...  [0.012528s]
+Building seed filter...  [0.002473s]
+Searching alignments...  [0.001074s]
+Processing query block 2, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.002298s]
+Building query seed array...  [0.1546s]
+Computing hash join...  [0.012838s]
+Building seed filter...  [0.002576s]
+Searching alignments...  [0.001204s]
+Processing query block 2, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.002409s]
+Building query seed array...  [0.124125s]
+Computing hash join...  [0.012998s]
+Building seed filter...  [0.00251s]
+Searching alignments...  [0.00107s]
+Deallocating buffers...  [8e-06s]
+Computing alignments...  [1.06406s]
+Deallocating reference...  [1e-05s]
+Loading reference sequences...  [5.3e-05s]
+Deallocating buffers...  [0.001313s]
+Deallocating queries...  [0.003578s]
+Loading query sequences...  [3.8e-05s]
+Closing the input file...  [7.9e-05s]
+Closing the output file...  [0.000613s]
+Closing the database file...  [2.9e-05s]
+Deallocating taxonomy...  [8e-06s]
+Total time = 329.783s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.
+diamond v0.9.28.129 | by Benjamin Buchfink <buchfink@gmail.com>
+Licensed under the GNU GPL <https://www.gnu.org/licenses/gpl.txt>
+Check http://github.com/bbuchfink/diamond for updates.
+
+#CPU threads: 40
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: ..
+Opening the database...  [0.000151s]
+#Target sequences to report alignments for: 25
+Opening the input file...  [0.785176s]
+Opening the output file...  [0.000835s]
+Loading query sequences...  [147.713s]
+Masking queries...  [69.3711s]
+Building query seed set...  [0.612933s]
+Algorithm: Double-indexed
+Building query histograms...  [6.46836s]
+Allocating buffers...  [0.000842s]
+Loading reference sequences...  [0.000141s]
+Masking reference...  [0.0235s]
+Building reference histograms...  [0.092518s]
+Allocating buffers...  [0.000142s]
+Initializing temporary storage...  [0.012054s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.074122s]
+Building query seed array...  [3.67855s]
+Computing hash join...  [0.753615s]
+Building seed filter...  [0.120922s]
+Searching alignments...  [0.051573s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.031251s]
+Building query seed array...  [4.31245s]
+Computing hash join...  [0.401644s]
+Building seed filter...  [0.06781s]
+Searching alignments...  [0.021981s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.024984s]
+Building query seed array...  [4.35984s]
+Computing hash join...  [0.395667s]
+Building seed filter...  [0.048404s]
+Searching alignments...  [0.021989s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.026877s]
+Building query seed array...  [3.36535s]
+Computing hash join...  [0.412272s]
+Building seed filter...  [0.084973s]
+Searching alignments...  [0.028771s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.036741s]
+Building query seed array...  [2.57672s]
+Computing hash join...  [0.272237s]
+Building seed filter...  [0.114849s]
+Searching alignments...  [0.050129s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.016686s]
+Building query seed array...  [1.22303s]
+Computing hash join...  [0.147545s]
+Building seed filter...  [0.010636s]
+Searching alignments...  [0.002574s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.008764s]
+Building query seed array...  [1.31595s]
+Computing hash join...  [0.139508s]
+Building seed filter...  [0.031383s]
+Searching alignments...  [0.002164s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.004816s]
+Building query seed array...  [1.04894s]
+Computing hash join...  [0.124682s]
+Building seed filter...  [0.00469s]
+Searching alignments...  [0.001846s]
+Deallocating buffers...  [7e-06s]
+Computing alignments...  [12.44s]
+Deallocating reference...  [2.1e-05s]
+Loading reference sequences...  [7.1e-05s]
+Deallocating buffers...  [0.006123s]
+Deallocating queries...  [0.016338s]
+Loading query sequences...  [27.8256s]
+Masking queries...  [19.686s]
+Building query seed set...  [7e-06s]
+Building query histograms...  [1.26134s]
+Allocating buffers...  [0.002268s]
+Loading reference sequences...  [0.000126s]
+Masking reference...  [0.003286s]
+Building reference histograms...  [0.004858s]
+Allocating buffers...  [0.000113s]
+Initializing temporary storage...  [0.010017s]
+Processing query block 1, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0.012807s]
+Building query seed array...  [0.757015s]
+Computing hash join...  [0.126525s]
+Building seed filter...  [0.042482s]
+Searching alignments...  [0.021095s]
+Processing query block 1, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0.021827s]
+Building query seed array...  [1.19934s]
+Computing hash join...  [0.065302s]
+Building seed filter...  [0.002463s]
+Searching alignments...  [0.001133s]
+Processing query block 1, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0.002522s]
+Building query seed array...  [1.1379s]
+Computing hash join...  [0.116568s]
+Building seed filter...  [0.002508s]
+Searching alignments...  [0.001159s]
+Processing query block 1, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0.002433s]
+Building query seed array...  [0.583732s]
+Computing hash join...  [0.064137s]
+Building seed filter...  [0.002493s]
+Searching alignments...  [0.001061s]
+Processing query block 1, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0.002424s]
+Building query seed array...  [0.59364s]
+Computing hash join...  [0.056436s]
+Building seed filter...  [0.002182s]
+Searching alignments...  [0.001085s]
+Processing query block 1, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0.002432s]
+Building query seed array...  [0.57052s]
+Computing hash join...  [0.053957s]
+Building seed filter...  [0.002253s]
+Searching alignments...  [0.001085s]
+Processing query block 1, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0.002362s]
+Building query seed array...  [0.755216s]
+Computing hash join...  [0.053367s]
+Building seed filter...  [0.002671s]
+Searching alignments...  [0.001144s]
+Processing query block 1, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0.002654s]
+Building query seed array...  [0.489213s]
+Computing hash join...  [0.05502s]
+Building seed filter...  [0.002387s]
+Searching alignments...  [0.00114s]
+Deallocating buffers...  [8e-06s]
+Computing alignments...  [13.8543s]
+Deallocating reference...  [8e-06s]
+Loading reference sequences...  [5.4e-05s]
+Deallocating buffers...  [0.004714s]
+Deallocating queries...  [0.009853s]
+Loading query sequences...  [4.9e-05s]
+Closing the input file...  [7.6e-05s]
+Closing the output file...  [0.000825s]
+Closing the database file...  [2e-05s]
+Deallocating taxonomy...  [7e-06s]
+Total time = 332.443s
+Reported 0 pairwise alignments, 0 HSPs.
+0 queries aligned.

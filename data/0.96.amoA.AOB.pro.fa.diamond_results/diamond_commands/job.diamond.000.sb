@@ -1,0 +1,38 @@
+#!/bin/bash
+
+##### Resources Requested ##########
+#SBATCH --time=48:00:00            
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=40
+#SBATCH --mem-per-cpu=16G
+
+########## Command Lines to Run ##########
+
+update_job_status 000 "Started $(date +'%H:%M %m\/%d\/%y')"
+
+cat << EOF | parallel
+
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1006_KanasCultivatedCorn.fasta --out ../1006_KanasCultivatedCorn.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1028_WisconsinContinuousCorn.fasta --out ../1028_WisconsinContinuousCorn.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1028_WisconsinNativePrairie.fasta --out ../1028_WisconsinNativePrairie.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1209_IowaContinuousCorn.fasta --out ../1209_IowaContinuousCorn.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1222_WisconsinContinuousCorn.fasta --out ../1222_WisconsinContinuousCorn.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1224_WisconsinContinuousCorn.fasta --out ../1224_WisconsinContinuousCorn.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1235_WisconsinNativePrairie.fasta --out ../1235_WisconsinNativePrairie.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1237_WisconsinNativePrairie.fasta --out ../1237_WisconsinNativePrairie.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1246_KanasCultivatedCorn.fasta --out ../1246_KanasCultivatedCorn.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1252_KanasCultivatedCorn.fasta --out ../1252_KanasCultivatedCorn.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1256_KanasNativePrairie.fasta --out ../1256_KanasNativePrairie.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1269_KanasNativePrairie.fasta --out ../1269_KanasNativePrairie.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1300_IowaContinuousCorn.fasta --out ../1300_IowaContinuousCorn.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1300_KanasCultivatedCorn.fasta --out ../1300_KanasCultivatedCorn.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1311_WisconsinSwitchGrass.fasta --out ../1311_WisconsinSwitchGrass.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1323_WisconsinRestoredPrairie.fasta --out ../1323_WisconsinRestoredPrairie.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1418_WisconsinSwitchGrass.fasta --out ../1418_WisconsinSwitchGrass.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1424_IowaContinuousCorn.fasta --out ../1424_IowaContinuousCorn.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1425_IowaContinuousCorn.fasta --out ../1425_IowaContinuousCorn.fasta.m8 --id 97
+diamond blastx --db ../0.96.amoA.AOB.pro.fa --query /mnt/scratch/f0008426/finalMeta/1427_IowaNativePrairie.fasta --out ../1427_IowaNativePrairie.fasta.m8 --id 97
+EOF
+
+update_job_status 000 "Finished: $(date +'%H:%M %m\/%d\/%y')"

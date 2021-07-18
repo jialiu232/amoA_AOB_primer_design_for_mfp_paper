@@ -1,0 +1,8 @@
+MetaFunPrimer: Count
+Input directory: /mnt/ufs18/home-114/f0008426/projects/amoA_AOB/get_LAMP_Meta_abun_0.96_AOB/Meta_abun_AOB/redesign_AOB_primers/0.96.amoA.AOB.pro.fa.diamond_results
+Cumulative s-score threshold: 0.80
+Summary file: 0.96.amoA.AOB.pro.fa.diamond_results.summary.tsv
+Number of recommended clusters when using s-score: 10
+Recommended clusters cover 0.874 cumulative abundance.
+Number of recommended clusters when using first-order differences: 8
+Recommended next command: mfpprepare -n path/to/nucleotide_fasta -p path/to/protein_fasta -c path/to/cluster/file -t 0.96.amoA.AOB.pro.fa.diamond_results.recommended_clusters.\* -m path/to/protein_nucleotide_map
